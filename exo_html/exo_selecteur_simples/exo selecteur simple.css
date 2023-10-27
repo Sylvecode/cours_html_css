@@ -1,0 +1,12 @@
+h1 {
+    color:red;
+}
+.lien {
+    color: greenyellow;
+}
+#contenu {
+    background-color: lightgrey;
+}
+.div_2 {
+   float: right; 
+}

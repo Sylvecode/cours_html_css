@@ -1,0 +1,16 @@
+h1 {
+    text-shadow: 5px -9px 5px violet;
+}
+
+p:nth-child(even){
+    margin-left: 5px;
+    max-width: 700px;
+    box-shadow: 0px 0px 15px red;
+    
+}
+
+p:nth-child(odd){
+    margin-left: 5px;
+    max-width: 700px;
+    box-shadow: -10px 10px 5px green;
+}
