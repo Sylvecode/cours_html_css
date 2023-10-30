@@ -1,0 +1,15 @@
+table{
+    border-style: solid;
+    border-color: purple;
+    border-width: 2px;
+
+}
+
+th {
+    background-color: skyblue;
+    border: solid;
+}
+
+td {
+    border:solid;
+}

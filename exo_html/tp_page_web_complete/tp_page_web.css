@@ -1,0 +1,66 @@
+#banner {
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    color: #EF233C;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h3 {
+    color: #2B2D42;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 5px dashed black;
+    display: inline;
+}
+
+article {
+    border: solid 1px;
+}
+
+div>img {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    border: #8D99AE 2px solid;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link {
+    color: #D90429;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: #2B2D42;
+}
+
+nav {
+    text-align: center;
+}
+
+
+label.nom, .email:after{
+    content:"*";
+    color:red;
+}
+
+.container {
+    background-image: radial-gradient(at top center, #CCDAE0, #EDF2F4);
+}
+
+footer {
+    text-align: right;
+}
