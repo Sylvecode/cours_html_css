@@ -1,0 +1,17 @@
+div {
+
+    color:gray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+div > *div{
+    width: 20px;
+    border: solid 2px red
+}
+
+div:nth-child(1){
+    background-color: black;
+    
+}

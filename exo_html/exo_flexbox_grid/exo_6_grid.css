@@ -1,0 +1,33 @@
+#container {
+    display: grid;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+li {
+    display: flex;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-right: 5px;
+    list-style-type: circle;
+}
+
+.div1 {
+    grid-column: 1;
+}
+
+.div2 {
+    grid-column: 2 /span 2;
+}
+
+.div3 {
+    grid-column: 4;
+}
