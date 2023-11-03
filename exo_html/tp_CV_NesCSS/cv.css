@@ -1,0 +1,41 @@
+h1, h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    color: green;
+}
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.coordonneesCompetences{
+    margin-left: 30px;
+    display:flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 20px;
+    max-width: 500px;
+}
+.formationsexperience {
+    padding: 20px;
+    max-width: 600px;
+}
+
+body {
+    background-color: ;
+}

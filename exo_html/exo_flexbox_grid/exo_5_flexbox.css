@@ -1,17 +1,80 @@
-div {
-
-    color:gray;
-    border-radius: 30px;
+/*div qui contient tout les dés*/
+body>div {
     display: flex;
     flex-direction: column;
 }
 
-div > *div{
-    width: 20px;
-    border: solid 2px red
+/*Toutes les div de dés*/
+body>div>div {
+    width: 50px;
+    border: solid 2px red;
+    background-color: lightgrey;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 25%;
+    display: flex;
 }
 
-div:nth-child(1){
+/*Dé 1*/
+body>div>div:nth-child(1) {
+    justify-content: center;
+    align-items: center;
+}
+
+/*Dé 2*/
+body>div>div:nth-child(2) {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*Dé 3*/
+body>div>div:nth-child(3) {
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*Dé 4*/
+body>div>div:nth-child(4) {
+    flex-wrap: wrap;
+}
+/* Rows du Dé 4*/
+body>div>div:nth-child(4)>div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 7px;
+}
+
+/*Dé 5*/
+body>div>div:nth-child(5) {
+    flex-wrap: wrap;
+}
+/* Rows du Dé 5*/
+body>div>div:nth-child(5)>div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3px;
+}
+
+
+/*Dé 6*/
+body>div>div:nth-child(6) {
+    flex-wrap: wrap;
+}
+/* Rows du Dé 6*/
+body>div>div:nth-child(6)>div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3px;
+}
+
+
+
+/*Style des points*/
+span {
+    width: 10px;
     background-color: black;
-    
+    height: 10px;
+    border-radius: 100%;
 }

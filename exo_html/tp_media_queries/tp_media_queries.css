@@ -1,0 +1,123 @@
+h1 {
+    background-color: #F1F1F1;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    color: #CCCCCC;
+    font-size: 1.7em;
+    text-shadow: 1px 1px 1px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.intro {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+.container {
+    padding-top: 10px;
+    background-color: #F1F1F1;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.boxes>div {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* La page est affichée avec une largeur < 640px */
+@media screen and (max-width: 640px) {
+    .box1WidthMax640 {
+        background-color: #5555CE !important;
+        color: white;
+    }
+
+    .pWidthMax640 {
+        display: block;
+        color:#5555CE;
+    }
+
+}
+
+
+/*La page est affichée avec une largeur > 1024px et < 1280px */
+@media screen and (min-width: 1024px) and (max-width:1280px) {
+    .boxWidthMin1024Max1280 {
+        background-color: #5555CE !important;
+        color: white;
+    }
+
+    .pWidthMin1024Max1280 {
+        display: block;
+        color:#5555CE;
+    }
+}
+
+/*La page est affichée sur un périphérique de maximum 480px (ex: iPhone)*/
+@media screen and (max-width:480px) {
+    .boxMax480 {
+        background-color: #5555CE !important;
+        color: white;
+    }
+
+    .pMax480 {
+        display: block;
+        color:#5555CE;
+    }
+}
+
+/*La page est affichée avec une largeur > 800px*/
+@media screen and (min-width: 800px) {
+    .boxWidthMin800 {
+        background-color: #5555CE !important;
+        color: white;
+    }
+
+    .pWidthMin800 {
+        display: block;
+        color:#5555CE;
+    }
+}
+
+
+/*La page est affichée en portrait */
+@media screen and (orientation: portrait) {
+    .boxPortrait {
+        background-color: #5555CE !important;
+        color: white;
+    }
+
+    .pPaysage {
+        display: block;
+        color:#5555CE;
+    }
+}
+
+/*La page est affichée en paysage */
+@media screen and (orientation: landscape) {
+    .boxPaysage {
+        background-color: #5555CE !important;
+        color: white;
+    }
+
+    .pPaysage {
+        display: block;
+        color:#5555CE;
+    }
+
+}
