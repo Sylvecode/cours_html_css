@@ -1,27 +1,68 @@
+.navbarAccueil, .navbarSeries, .navbarFilms {
+    font-size: 170%;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
 h1, h2, h3, p, footer {
     color: white;
 }
 
+h2 {
+    margin-top: 15px;
+}
+
 body {
-    background-image: url('jumanji.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-
+    background-color: black;
 }
 
-h1, h2 {
-    margin: 50px;
-    margin-top: 80px;
-}
-
-h3, p {
-    margin-left: 50px;
+.opus {
+    margin-top: 40px;
 }
 
 p {
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 30px;
+    font-size: larger;
+    max-width: 600px;
+    text-shadow: 1px, 1px, 2px black;
+}
+
+.pageAccueil, .pageSeries, .pageFilms {
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    margin-bottom: 100px;
+    padding-left: 70px;
+}
+
+.dropdown {
+    margin-left: 250px;
+}
+
+.pageAccueil {
+    background-image: url(jumanji.png);
+    height: 100vh;
+}
+
+.pageSeries {
+    background-image: url(background\ wesworld.svg);
+    height: 100vh;
+
+}
+
+.pageFilms {
+    background-image: url(filmsenavant.png);
+    height: 100vh;
+}
+
+
+.carrousselAccueil {
+    margin-top: 150px;
+}
+.carroussel {
+    margin-top: 430px;
 }
 
 footer {
@@ -33,4 +74,16 @@ footer {
 .block {
     height: 500px;
     width: 400px;
+}
+
+
+.avatar-icon, .notif-icon, .search {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img-slide {
+    height: 150px;
+    width: 300px;
+
 }
